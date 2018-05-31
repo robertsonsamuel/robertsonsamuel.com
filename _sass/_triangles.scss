@@ -1,0 +1,25 @@
+@import 'colors';
+
+.triangle-container{
+  height: 500px;
+  width: 100%;
+  text-align:center;
+  border: 1px solid white;
+    
+  .triangle{
+    fill: transparent;
+    stroke: $blue;
+    stroke-width: 8;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .triangle-outer {
+    fill: transparent;
+    stroke: $blue;
+    stroke-width: 8;
+    width: 100%;
+    height: 100%;
+  }
+}

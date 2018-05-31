@@ -1,0 +1,30 @@
+@import "backgrounds";
+
+.card {
+  width: inherit;
+  border-radius: 3px;
+  box-shadow: 0 40px 80px rgba(51,51,0,.5);
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.card .layer {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+
+}
+
+.revolution-messaging {
+  background-position: -100px;
+  background-image: url($image-washington);
+}
+
+.overlay-link {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

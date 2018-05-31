@@ -1,0 +1,65 @@
+---
+---
+@import "./../../node_modules/milligram/dist/milligram.min.css";
+@import './../_sass/colors';
+@import './../_sass/backgrounds';
+@import './../_sass/triangles';
+@import './../_sass/card';
+
+body {
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background: #50C9C3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  overflow: hidden;
+  color: $white;
+
+  a {
+    color: $black;
+  }
+  
+  h1 {
+    letter-spacing: 5px;
+  }
+
+  h4 {
+    letter-spacing: 3px;
+  }
+
+  p {
+    letter-spacing: 3px;
+  }
+
+  .header-social {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      font-size: 35px;
+      display: inline;
+      letter-spacing: 1px;
+    }
+  }
+
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

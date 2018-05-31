@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sam Robertson</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Sam Robertson</h1>
+
+    <div class="header-social">
+      <ul>
+        <li>
+          <a href="https://twitter.com">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="layer revolution-messaging">
+                <a class="overlay-link" href="https://revolutionmessaging.com/"></a>
+              <img src="/assets/images/rev_msg.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <h4>Revolution Messaging</h4>
+          <p>Building the future of the digital political landscape.</p>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <main class="wrapper">
+    <div class="container">
+      <div class="row">
+        <p>
+          Welcome and thanks for checking out my personal site! I'm a full stack developer in the Seattle Area. I live and breathe
+          JavaScript. I use it to develop large or small web and mobile applications. My focus is mostly on using the MEAN
+          stack, but I'm not critical and pledge to find the best tool for a job. I have worked as a mechanical engineer
+          in the automotive industry and while that was fun, I love to program. I like solving problems that can be automated
+          with software, robots or computers in general. I have worked solo and on teams of 3-5 people in Scrum environments
+          and love the challenge it takes to get something off the ground.
+        </p>
+      </div>
+      <div class="row">
+        {{content}}
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
