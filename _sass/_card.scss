@@ -11,12 +11,12 @@
 .card .layer {
   position: relative;
   background-repeat: no-repeat;
-  background-size: 150% auto;
+  background-size: auto ;
 
 }
 
 .revolution-messaging {
-  background-position: -100px;
+  background-position: center;
   background-image: url($image-washington);
 }
 

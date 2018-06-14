@@ -1,5 +1,49 @@
+@import "colors";
+
 .wrapper {
   display: block;
   overflow: hidden;
   width: 100%;
+  color: $white;
+
+  p {
+    text-align: center;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+
+
+}
+
+.previous-marker {
+  cursor: pointer;
+  border: 5px solid #65d0ca;
+  width: 250px;
+  padding: 5px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+  h2 {
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background: #50C9C3;
+    border: 5px solid $white;
+    
+    a {
+      text-decoration: none;
+    }
+
+  }
 }
